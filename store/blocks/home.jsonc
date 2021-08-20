@@ -27,9 +27,10 @@
       "itemsPerPage": {
         "desktop": 1,
         "tablet": 1,
-        "phone": 1
+        "phone": 1        
       },
       "infinite": true,
+      "arrowSize": 15,      
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }

@@ -1,7 +1,7 @@
-.sliderLayoutContainer {
+.sliderLayoutContainer { 
   margin-top: 2rem;
   justify-content: center;
-  border-radius: 14px;
+  border-radius: 14px;    
 }
 
 .sliderTrackContainer {
@@ -15,7 +15,7 @@
 }
 
 .imageElement {
-  border-radius: 16px;
+  border-radius: 16px; 
 }
 
 .paginationDot {
@@ -25,3 +25,8 @@
 .paginationDot--isActive {
   background: #59ff02;
 }
+
+.caretIcon--carousel {  
+  color: #fff;
+}
+

@@ -4,27 +4,39 @@
   },
   "footer-layout.desktop": { 
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "login",
-      "image#2"
+      "flex-layout.row#footer-desktop"
     ]
   },
   
-  "image#2": {
+  "flex-layout.row#footer-desktop": {
     "props": {
-      "src": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png",
-      "maxWidth": 400,
-      "maxHeight": 150,
-      "alt": "Imagem2"
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "main-footer-desktop"
+    },
+    "children": [
+      "login"            
+    ]
+  },  
+
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer-mobile"
+    ]
+  },
+  
+  "flex-layout.row#footer-mobile": {
+    "children": [
+      "login"     
+    ],
+    "props": {
+      "blockClass": "main-footer-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true      
     }
   }
 
