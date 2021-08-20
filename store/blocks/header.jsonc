@@ -25,12 +25,9 @@
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#logo-desktop",      
+      "search-bar",      
+      "minicart.v2"      
     ]
   },
   "flex-layout.col#spacer": {
@@ -48,8 +45,8 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "80"
+      "url": "https://i.ibb.co/7v0L6wg/upmedal.png",
+      "width": "100"
     }
   },
   "header-layout.mobile": {
@@ -62,8 +59,7 @@
     "children": [
       "drawer",
       "logo",
-      "flex-layout.col#spacer",
-      "login",
+      "flex-layout.col#spacer",      
       "minicart.v2"
     ],
     "props": {

@@ -1,15 +1,37 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "list-context.image-list#banner"
     ]
   },
-  "rich-text": { 
-    "props": { 
-      "text": "VTEX Store Framework",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
+  "list-context.image-list#banner": {
+    "children": [
+      "slider-layout#banner-images"
+    ],
+    "props": {
+      "height": 380,
+      "images": [
+        {
+          "image": "https://i.ibb.co/92rSD0Y/up-medal-banner1.png",
+          "mobileImage": "https://i.ibb.co/92rSD0Y/up-medal-banner1.png"
+        },
+        {
+          "image": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png",
+          "mobileImage": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
     }
   }
 }

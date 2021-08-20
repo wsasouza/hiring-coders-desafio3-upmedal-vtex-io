@@ -1,0 +1,38 @@
+.logoImage {
+  height: 30px;
+  width: 115px;
+}
+
+.searchBarContainer {
+  width: 780px;  
+}
+
+.searchBarContainer :global(.vtex-input-prefix__group) {
+  border: none;  
+  border-bottom: thin solid #fff;
+  border-radius: 0;  
+}
+
+.searchBarContainer :global(.vtex-input__sufix) {
+  background: transparent;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background: transparent;
+  color: #59ff00;
+}
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input):focus {   
+  border-bottom: thin solid #59ff00;  
+}
+
+.searchIcon {
+  color: #59ff00;
+  background: transparent;
+}
+
+
+
+
+
+

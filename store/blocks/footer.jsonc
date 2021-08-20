@@ -14,13 +14,18 @@
   },
   "flex-layout.row#footer": { 
     "children": [
-      "image"
+      "login",
+      "image#2"
     ]
   },
-  "image": {
+  
+  "image#2": {
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "src": "https://i.ibb.co/L0Gzq5q/up-medal-banner2.png",
+      "maxWidth": 400,
+      "maxHeight": 150,
+      "alt": "Imagem2"
     }
   }
+
 }
